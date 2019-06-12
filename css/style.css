@@ -263,7 +263,7 @@ header .logo img {
 .news-item_para {
     text-align: center;
     font-size: 12px;
-    padding: 10px;
+    padding: 7px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -330,7 +330,7 @@ header .logo img {
     font-size: 11px;
     border: 2px solid black;
     text-align: center;
-    margin: 0px 65px 14px 69px;
+    margin: 0px 65px 25px 69px;
     text-decoration: none;
     padding: 3px;
     font-family: 'Lato', sans-serif;
