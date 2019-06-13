@@ -26,7 +26,7 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding-bottom: 340px;
+    padding-bottom: 374px;
 }
 header {
     color: #00d1cd;
@@ -85,11 +85,9 @@ header .logo img {
 .admission_box {
     background-color: #00d1cd;
     text-align: center;
-    padding: 10px 0px 20px 0px;
-    margin: 0 auto;
+    padding: 10px 0px 28px 0px;
+    margin: -80px auto 0px;
     width: 80%;
-    position: relative;
-    bottom: 81px;
 }
 .admission {
     color: #fff;
@@ -239,7 +237,13 @@ header .logo img {
     margin: 10px 0px 0px 220px;
     padding: 3px 8px;
     font-family: 'Lato', sans-serif;
-}
+}.research {
+     position:relative;
+ }
+ .research .dots {
+     position:absolute;
+     left:50%;
+ }
 
 /* news*/
 .news {
