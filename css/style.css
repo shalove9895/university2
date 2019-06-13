@@ -89,13 +89,14 @@ header .logo img {
     margin: 0 auto;
     width: 80%;
     position: relative;
-    bottom: 84px;
+    bottom: 81px;
 }
 .admission {
     color: #fff;
     text-align: center;
     margin: 10px 0px 20px 0px;
     font-family: 'PT Serif', serif;
+    padding: 10px;
 }
 .admission_button {
     border: 2px solid #fff;
