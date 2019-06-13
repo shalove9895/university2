@@ -87,7 +87,7 @@ header .logo img {
     text-align: center;
     padding: 10px 0px 28px 0px;
     margin: -80px auto 0px;
-    width: 80%;
+    width: 85%;
 }
 .admission {
     color: #fff;
@@ -113,6 +113,7 @@ header .logo img {
     background-color: #fffde8;
     text-align: center;
     padding: 20px 0px 5px 0px;
+    margin-top: 30px;
 }
 .courses h2 {
     text-align: center;
@@ -237,20 +238,34 @@ header .logo img {
     margin: 10px 0px 0px 220px;
     padding: 3px 8px;
     font-family: 'Lato', sans-serif;
-}.research {
+}
+.research {
      position:relative;
  }
- .research .dots {
-     position:absolute;
-     left:50%;
- }
-
-/* news*/
+.research .dots {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 25px;
+}
+.research .dots li {
+    width: 14px;
+    height: 14px;
+    border-radius: 60%;
+    display: inline-block;
+    margin-right: 8px;
+    background-color: gray;
+}
+.research .dots .active {
+    background-color: #00d1cd;
+}
+    /* news*/
 .news {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 30px;
 }
 .news-item {
     margin: 50px 0px 20px 0px;
@@ -283,13 +298,36 @@ header .logo img {
     padding: 7px;
     font-family: 'Lato', sans-serif;
 }
-
+.news {
+    position:relative;
+}
+.news .dots {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+}
+.news .dots li {
+    width:12px;
+    height:12px;
+    border-radius: 60%;
+    display:inline-block;
+    margin-right:8px;
+    background-color:gray;
+}
+.news .dots li:last-child {
+    margin-right:0;
+}
+.news .dots .active {
+    background-color:#00d1cd;
+}
 /* event */
 .event-info {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 23px;
 }
 .event-info h3 {
     font-size: 20px;
