@@ -507,10 +507,9 @@ header .logo img {
     .header_main {
         background-image: url("../images/main.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         width: 100%;
         display: flex;
-        background-position: right bottom;
     }
     .menu {
         display:none;
@@ -557,10 +556,10 @@ header .logo img {
         font-size: 28px;
         font-family: 'PT Serif', sans-serif;
         letter-spacing: 1px;
-        margin: 100px 0px 0px 245px;
+        margin: 100px 0px 0px 165px;
         letter-spacing: 3px;
         font-weight: 900;
-        padding-bottom:10px;
+        padding-bottom:5px;
     }
     .main_hrading2 {
         text-align: left;
@@ -569,7 +568,7 @@ header .logo img {
         padding-top: 5px;
         font-family: 'PT Serif', sans-serif;
         letter-spacing: 1px;
-        margin: 5px 0px 0px 220px;
+        margin: 5px 0px 0px 150px;
         font-weight:900;
         padding-bottom:10px;
     }
@@ -580,7 +579,7 @@ header .logo img {
         padding: 5px 0px 14px 0px;
         font-family: 'PT Serif', serif;
         text-align:center;
-        margin-right: 308px;
+        margin-right: 485px;
     }
     .main_para {
         display:none;
@@ -595,7 +594,7 @@ header .logo img {
         font-family: 'Lato', sans-serif;
         font-weight: 600;
         display: inline-block;
-        margin: 10px 0px 0px 330px;
+        margin: 10px 0px 0px 252px;
     }
 
     /* header in pc*/
@@ -603,7 +602,7 @@ header .logo img {
     .admission_box {
         background-color: #00d1cd;
         padding: 0px 0px 49px 0px;
-        margin: -80px auto 0px;
+        margin: -220px auto 0px;
         width: 91%;
     }
     .admission_box img {
