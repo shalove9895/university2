@@ -510,7 +510,7 @@ header .logo img {
         background-size: cover;
         width: 100%;
         display: flex;
-        background-position: left bottom;
+        background-position: right bottom;
     }
     .menu {
         display:none;
