@@ -94,8 +94,9 @@ main {
     margin-top: 10px;
     margin: 0px 74px;
 }
-.main_button a:hover {
+.main_button:hover {
     color: gray;
+    box-shadow: 5px 5px 5px;
 }
 
 /* header*/
@@ -621,7 +622,8 @@ main {
         margin: 20px 0px 0px 168px;
     }
     .main_button:hover {
-        color:#00d1cd;
+        color:gray;
+        box-shadow: 5px 8px 10px;
     }
 
     /* header in pc*/
@@ -656,7 +658,8 @@ main {
         margin-left: 151px;
     }
     .admission_button:hover {
-        color:gray;
+        color:black;
+        box-shadow: 5px 8px 10px;
     }
 
     /* courses in pc*/
@@ -742,7 +745,7 @@ main {
     }
     .courses .course_pc .course_button1:hover {
         color:gray;
-        border:1px solid gray;
+        box-shadow: 5px 8px 10px;
     }
     .courses .course_pc img {
         background-position: center;
@@ -787,8 +790,8 @@ main {
         background-repeat: no-repeat;
     }
     .research {
-    position: relative;
-    padding-bottom: 100px;
+        position: relative;
+        padding-bottom: 100px;
     }
     .research:after {
         content: '';
@@ -939,6 +942,10 @@ main {
     .news-item_button a:hover {
         color:gray;
     }
+    .news-item_button:hover {
+        color:gray;
+        box-shadow: 5px 8px 10px;
+    }
     .news_pc .row2 {
         overflow:hidden;
         position: relative;
@@ -1016,6 +1023,10 @@ main {
     }
     .event-info_button a:hover {
         color:gray;
+    }
+    .event-info_button:hover {
+        color:gray;
+        box-shadow: 5px 8px 10px;
     }
 
     /* footer in pc*/
