@@ -18,7 +18,7 @@ li {
 
 /* header*/
 .header_main {
-    display: flex flex;
+    display: flex;
     flex-direction: column;
     padding-bottom: 100px;
     background-image: url("../image/main.jpg");
@@ -38,6 +38,9 @@ header .logo img {
 }
 .nav ul {
     display:none;
+}
+main {
+    display:flex
 }
 .menu {
     margin-left: auto;
@@ -142,7 +145,10 @@ header .logo img {
 }
 .courses .course {
     margin-bottom: 50px;
-    display:block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .courses .course img {
     background-position: center;
@@ -556,9 +562,9 @@ header .logo img {
         font-size: 28px;
         font-family: 'PT Serif', sans-serif;
         letter-spacing: 1px;
-        margin: 100px 0px 0px 165px;
+        margin: 100px 0px 0px 85px;
         letter-spacing: 3px;
-        font-weight: 900;
+        font-weight: bolder;
         padding-bottom:5px;
     }
     .main_hrading2 {
@@ -568,8 +574,8 @@ header .logo img {
         padding-top: 5px;
         font-family: 'PT Serif', sans-serif;
         letter-spacing: 1px;
-        margin: 5px 0px 0px 150px;
-        font-weight:900;
+        margin: 5px 0px 0px 66px;
+        font-weight:bolder;
         padding-bottom:10px;
     }
     .main_para1 {
@@ -594,7 +600,7 @@ header .logo img {
         font-family: 'Lato', sans-serif;
         font-weight: 600;
         display: inline-block;
-        margin: 10px 0px 0px 252px;
+        margin: 10px 0px 0px 168px;
     }
 
     /* header in pc*/
