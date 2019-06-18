@@ -61,7 +61,7 @@ main {
     font-size: 14px;
     font-family: 'PT Serif', serif;
     letter-spacing: 1px;
-    margin-top: 10px;
+    margin-top: 48px;
 }
 .main_hrading2 {
     text-align: center;
@@ -94,6 +94,9 @@ main {
     margin-top: 10px;
     margin: 0px 74px;
 }
+.main_button a:hover {
+    color: gray;
+}
 
 /* header*/
 .admission_box {
@@ -124,6 +127,9 @@ main {
     text-align: center;
     padding: 5px 8px;
     text-align: center;
+}
+.admission_button a:hover {
+    color: grey;
 }
 
 /* courses*/
@@ -190,6 +196,9 @@ main {
 .courses .course .para3 a {
     color:#00d1cd;
 }
+.courses .course .para3 a:hover {
+    color: gray;
+}
 .courses .course .course_button1 {
     border: 2px solid black;
     color: black;
@@ -202,6 +211,9 @@ main {
     font-size: 11px;
     font-weight: 600;
     margin: 0px 72px;
+}
+.courses .course .course_button1 a:hover {
+    color:grey;
 }
 .courses .course .ug_course img {
     padding-top: 35px;
@@ -264,6 +276,9 @@ main {
     margin: 10px 0px 0px 220px;
     padding: 3px 8px;
     font-family: 'Lato', sans-serif;
+}
+.research_button:hover {
+    color: gray;
 }
 .research {
      position:relative;
@@ -431,6 +446,9 @@ main {
 .event-info_button a {
     color:black;
 }
+.event-info_button a:hover  {
+    color: gray;
+}
 
 /* footer */
 
@@ -489,6 +507,10 @@ main {
     align-items: center;
     color:#fff;
 }
+.social_list a:hover {
+    color:gray;
+    border: 1px solid gray;
+}
 .footer_bottom {
     background-color: #393434;
     color: #fff;
@@ -526,6 +548,11 @@ main {
         width: 600px;
         height: 24px;
     }
+    .nav ul li a:hover {
+        color:#00d1cd;
+        border-bottom:4px solid #00d1cd;
+        padding-bottom:2px;
+    }
     .nav ul li {
         font-size: 15px;
         float: left;
@@ -534,10 +561,6 @@ main {
         font-family: 'PT Serif', sans-serif;
         display: block;
         font-weight: 600;
-    }
-    .nav li:first-child span{
-        border-bottom:4px solid #00d1cd;
-        padding-bottom:2px;
     }
     .nav li:last-child {
         margin-right: 0px;
@@ -597,6 +620,9 @@ main {
         display: inline-block;
         margin: 20px 0px 0px 168px;
     }
+    .main_button:hover {
+        color:#00d1cd;
+    }
 
     /* header in pc*/
     
@@ -628,6 +654,9 @@ main {
         text-align: center;
         padding: 10px 30px;
         margin-left: 151px;
+    }
+    .admission_button:hover {
+        color:gray;
     }
 
     /* courses in pc*/
@@ -695,6 +724,9 @@ main {
     .courses .course_pc .para3 a {
         color: #00d1cd;
     }
+    .courses .course_pc .para3 a:hover {
+        color: grey;
+    }
     .courses .course_pc .course_button1 {
         border: 2px solid black;
         color: black;
@@ -707,6 +739,10 @@ main {
         font-size: 11px;
         font-weight: 600;
         margin: 40px 0px 50px 0px;
+    }
+    .courses .course_pc .course_button1:hover {
+        color:gray;
+        border:1px solid gray;
     }
     .courses .course_pc img {
         background-position: center;
@@ -900,6 +936,9 @@ main {
     .news-item_button a {
         color:black;
     }
+    .news-item_button a:hover {
+        color:gray;
+    }
     .news_pc .row2 {
         overflow:hidden;
         position: relative;
@@ -971,10 +1010,12 @@ main {
         text-decoration: none;
         padding: 5px 12px;
         font-family: 'Lato', sans-serif;
-        font-weight: 600;
     }
     .event-info_button a {
         color: black;
+    }
+    .event-info_button a:hover {
+        color:gray;
     }
 
     /* footer in pc*/
@@ -1019,6 +1060,10 @@ main {
         justify-content: center;
         align-items: center;
         color: #fff;
+    }
+    .contact .social a:hover {
+        color:gray;
+        border:1px solid gray;
     }
     .footer_pc .container {
         width: 100%;
