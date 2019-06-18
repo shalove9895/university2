@@ -128,11 +128,12 @@ main {
     padding: 5px 8px;
     text-align: center;
 }
+
 .admission_button a:hover {
     color: grey;
 }
 .admission_button:hover {
-    color: black;
+    color: #fff;
 }
 
 /* courses*/
@@ -291,6 +292,26 @@ main {
 }
 .research {
      position:relative;
+}
+.research .dots {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+}
+.research .dots li {
+    width:15px;
+    height:15px;
+    border-radius: 60%;
+    display:inline-block;
+    margin-right:8px;
+    background-color:gray;
+}
+.research .dots li:last-child {
+    margin-right:0;
+}
+.research .dots .active {
+    background-color: #00d1cd;
 }
 .research_pc {
     display:none;
@@ -652,7 +673,6 @@ main {
         margin-left: 151px;
     }
     .admission_button:hover {
-        color:black;
         font-size:15px;
     }
 
