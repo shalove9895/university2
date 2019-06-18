@@ -96,7 +96,6 @@ main {
 }
 .main_button:hover {
     color: gray;
-    box-shadow: 5px 5px 5px;
 }
 
 /* header*/
@@ -134,7 +133,6 @@ main {
 }
 .admission_button:hover {
     color: black;
-    box-shadow: 5px 5px 5px;
 }
 
 /* courses*/
@@ -226,7 +224,6 @@ main {
 }
 .courses .course .course_button1:hover {
     color: gray;
-    box-shadow: 5px 8px 10px;
 }
 
 /* research*/
@@ -291,27 +288,9 @@ main {
 }
 .research_button:hover {
     color:black;
-    box-shadow: 5px 8px 10px;
 }
 .research {
      position:relative;
- }
-.research .dots {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: 25px;
-}
-.research .dots li {
-    width: 14px;
-    height: 14px;
-    border-radius: 60%;
-    display: inline-block;
-    margin-right: 8px;
-    background-color: gray;
-}
-.research .dots .active {
-    background-color: #00d1cd;
 }
 .research_pc {
     display:none;
@@ -464,7 +443,6 @@ main {
 }
 .event-info_button:hover {
     color:gray;
-    box-shadow: 5px 8px 10px;
 }
 
 /* footer */
@@ -639,7 +617,7 @@ main {
     }
     .main_button:hover {
         color:gray;
-        box-shadow: 5px 8px 10px;
+        font-size:17px;
     }
 
     /* header in pc*/
@@ -675,7 +653,7 @@ main {
     }
     .admission_button:hover {
         color:black;
-        box-shadow: 5px 8px 10px;
+        font-size:15px;
     }
 
     /* courses in pc*/
@@ -723,7 +701,7 @@ main {
     }
     .courses .course_pc .para1 {
         text-align: left;
-        font-size: 15px;
+        font-size: 16px;
         font-family: 'Lato', sans-serif;
         line-height: 21px;
     }
@@ -745,6 +723,7 @@ main {
     }
     .courses .course_pc .para3 a:hover {
         color: grey;
+        font-size:15px;
     }
     .courses .course_pc .course_button1 {
         border: 2px solid black;
@@ -755,13 +734,12 @@ main {
         font-size: 12px;
         display: inline-block;
         font-family: 'Lato', sans-serif;
-        font-size: 11px;
         font-weight: 600;
         margin: 40px 0px 50px 0px;
     }
     .courses .course_pc .course_button1:hover {
         color:gray;
-        box-shadow: 5px 8px 10px;
+        font-size:13px;
     }
     .courses .course_pc img {
         background-position: center;
@@ -850,24 +828,32 @@ main {
         height: 520px;
         color:#fff;
     }
+    .research_pc .box01:hover {
+        box-shadow: 10px 10px 40px -10px;
+        font-size: 26px;
+        background-color:#fff;
+        color:black;
+    }
+    .research_pc .box01:nth-of-type(2):hover {
+        color:black
+    }
     .research_pc .box01:last-child {
         float: right;
-        margin-right: 0px; 
+        margin-right: 0px;
     }
     .research_pc .box01:nth-of-type(2) {
-        background-color: #fff;
         height: 520px;
-        box-shadow: 10px 10px 40px -10px;
-        color:black;
+        color:#fff;
     }
     .research_pc .box01 .research_heading1 {
         font-size: 25px;
         font-family: 'Lato', sans-serif;
-        padding: 20px 0px 10px 0px;
+        padding: 35px 0px 13px 0px;
     }
     .research_pc .box01 .research_para1 {
         font-size: 16px;
         font-family: 'Lato', sans-serif;
+        line-height:25px;
     }
     .research_pc .dots {
         margin-top: 25px;
@@ -880,11 +866,11 @@ main {
         margin-right: 3px;
         background-color: #fff;
     }
+    .research_pc .box01 .dots li:hover {
+        color: black;
+    }
     .research_pc .box01 .dots li:last-child {
         margin-right: -150px;
-    }
-    .research_pc .box01 .dots .bha {
-        background-color: black;
     }
     /* news & event */
     .news_pc .container {
@@ -960,7 +946,7 @@ main {
     }
     .news-item_button:hover {
         color:gray;
-        box-shadow: 5px 8px 10px;
+        font-size:14px;
     }
     .news_pc .row2 {
         overflow:hidden;
@@ -1042,7 +1028,7 @@ main {
     }
     .event-info_button:hover {
         color:gray;
-        box-shadow: 5px 8px 10px;
+        font-size:14px;
     }
 
     /* footer in pc*/
