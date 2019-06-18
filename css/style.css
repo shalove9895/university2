@@ -132,6 +132,10 @@ main {
 .admission_button a:hover {
     color: grey;
 }
+.admission_button:hover {
+    color: black;
+    box-shadow: 5px 5px 5px;
+}
 
 /* courses*/
 .courses {
@@ -220,13 +224,17 @@ main {
     padding-top: 35px;
     background-position: center;
 }
+.courses .course .course_button1:hover {
+    color: gray;
+    box-shadow: 5px 8px 10px;
+}
 
 /* research*/
 .research {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .research .container {
     padding: 0;
@@ -449,6 +457,10 @@ main {
 }
 .event-info_button a:hover  {
     color: gray;
+}
+.event-info_button:hover {
+    color:gray;
+    box-shadow: 5px 8px 10px;
 }
 
 /* footer */
