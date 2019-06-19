@@ -854,7 +854,8 @@ main {
         box-shadow: 10px 10px 40px -10px;
         background-color:#fff;
         color:black;
-		transition-delay:1s;
+		transition-delay:.5s;
+		-webkit-transition-delay:.5s;
     }
     .research_pc .box01:nth-of-type(2):hover {
         color:black
