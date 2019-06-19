@@ -771,7 +771,7 @@ main {
         margin-bottom:10px;
     }
     .course_pc .dots li {
-        width: 74px;
+        width: 80px;
         height: 58px;
         border-radius: 60%;
         display: inline-block;
@@ -875,23 +875,7 @@ main {
         font-family: 'Lato', sans-serif;
         line-height:25px;
     }
-    .research_pc .dots {
-        margin-top: 25px;
-    }
-    .research_pc .box01 .dots li {
-        width: 12px;
-        height: 12px;
-        border-radius: 60%;
-        display: inline-block;
-        margin-right: 3px;
-        background-color: #fff;
-    }
-    .research_pc .box01 .dots li:hover {
-        color: black;
-    }
-    .research_pc .box01 .dots li:last-child {
-        margin-right: -150px;
-    }
+
     /* news & event */
     .news_pc .container {
         padding-right: 15px;
@@ -1140,4 +1124,3 @@ main {
     }
 
     }
-
