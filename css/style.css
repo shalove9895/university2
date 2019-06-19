@@ -531,7 +531,6 @@ main {
 }
 .social_list a:hover {
     color:gray;
-    border: 1px solid gray;
 }
 .footer_bottom {
     background-color: #393434;
@@ -644,7 +643,6 @@ main {
     }
     .main_button:hover {
         color:gray;
-        font-size:17px;
     }
 
     /* header in pc*/
@@ -749,7 +747,6 @@ main {
     }
     .courses .course_pc .para3 a:hover {
         color: grey;
-        font-size:15px;
     }
     .courses .course_pc .course_button1 {
         border: 2px solid black;
@@ -765,7 +762,6 @@ main {
     }
     .courses .course_pc .course_button1:hover {
         color:gray;
-        font-size:13px;
     }
     .courses .course_pc img {
         background-position: center;
@@ -856,7 +852,6 @@ main {
     }
     .research_pc .box01:hover {
         box-shadow: 10px 10px 40px -10px;
-        font-size: 26px;
         background-color:#fff;
         color:black;
     }
@@ -956,7 +951,6 @@ main {
     }
     .news-item_button:hover {
         color:gray;
-        font-size:14px;
     }
     .news_pc .row2 {
         overflow:hidden;
@@ -1038,7 +1032,6 @@ main {
     }
     .event-info_button:hover {
         color:gray;
-        font-size:14px;
     }
 
     /* footer in pc*/
