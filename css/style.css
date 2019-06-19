@@ -677,7 +677,7 @@ main {
         margin-left: 151px;
     }
     .admission_button:hover {
-        font-size:15px;
+        color:gray;
     }
 
     /* courses in pc*/
