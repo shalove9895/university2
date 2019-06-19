@@ -589,6 +589,7 @@ main {
     }
     .nav ul li a {
         color: black;
+		boder-bottom:8px solid #00d1cd;
     }
     header .logo img {
         width: 180px;
