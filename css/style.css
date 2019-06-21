@@ -709,10 +709,10 @@ main {
     .courses .course_pc {
         float: left;
         text-align: center;
-        width: 44%;
+        width: 47%;
         border: 2px solid #d8d6c8;
-        padding: 0px 20px;
         border-radius:10px;
+		overflow:hidden;
     }
     .courses .course_pc:last-child {
         float:right;
@@ -728,22 +728,30 @@ main {
         margin: 33px 0px 10px 0px;
         font-family: 'Lato', sans-serif;
         font-size: 23px;
+		text-align:left;
+		margin-left: 25px;
     }
     .courses .course_pc .para1 {
         font-size: 16px;
         font-family: 'Lato', sans-serif;
         line-height: 21px;
+		text-align:left;
+		margin-left: 25px;
     }
     .courses .course_pc .para2 {
         font-size: 16px;
         font-family: 'Lato', sans-serif;
         padding: 18px 0px 18px 0px;
+		text-align:left;
+		margin-left: 25px;
     }
     .courses .course_pc .para3 {
         font-size: 14px;
         padding: 4px 0px 19px 0px;
         font-family: 'Lato', sans-serif;
         font-weight:600;
+		text-align:left;
+		margin-left: 25px;
     }
     .courses .course_pc .para3 a {
         color: #00d1cd;
@@ -769,7 +777,7 @@ main {
     .courses .course_pc img {
         background-position: center;
         background-repeat: no-repeat;
-        width: 100%;
+        width: 101%;
     }
     .course_pc .dots {
         position: absolute;
@@ -852,16 +860,6 @@ main {
         background-color: #ff3e6d;
         height: 520px;
         color:#fff;
-    }
-    .research_pc .box01:hover {
-        box-shadow: 10px 10px 40px -10px;
-        background-color:#fff;
-        color:black;
-		transition-delay:.5s;
-		-webkit-transition-delay:.5s;
-    }
-    .research_pc .box01:nth-of-type(2):hover {
-        color:black
     }
     .research_pc .box01:last-child {
         float: right;
