@@ -113,9 +113,10 @@ main {
 .admission {
     color: #fff;
     text-align: center;
-    margin: 10px 0px 20px 0px;
+    margin: 0px 0px 10px 0px;
     font-family: 'PT Serif', serif;
     padding: 10px;
+	font-size:20px;
 }
 .admission_button {
     border: 2px solid #fff;
@@ -127,6 +128,7 @@ main {
     text-align: center;
     padding: 5px 8px;
     text-align: center;
+	margin-left: 63px;
 }
 
 .admission_button a:hover {
@@ -528,6 +530,7 @@ main {
     justify-content:center;
     align-items: center;
     color:#fff;
+	font-size:10px;
 }
 .social_list a:hover {
     color:gray;
@@ -556,9 +559,10 @@ main {
     .header_main {
         background-image: url("../images/main.jpg");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         width: 100%;
         display: flex;
+		background-position:center bottom;
     }
     .menu {
         display:none;
@@ -598,6 +602,7 @@ main {
     /* main in pc*/
     .container {
         text-align: left;
+		margin:0 auto;
     }
     .main_heading1 {
         text-align: left;
@@ -650,13 +655,13 @@ main {
     
     .admission_box {
         background-color: #00d1cd;
-        padding: 0px 0px 49px 0px;
-        margin: -220px auto 0px;
-        width: 91%;
+        padding: 0px 0px 48px 0px;
+        width: 90%;
     }
     .admission_box img {
         display: block;
         float:left;
+		margin-left: -26px;
     }
     .admission {
         color: #fff;
@@ -665,6 +670,7 @@ main {
         padding-top: 46px;
         text-align: center;
         font-size: 43px;
+		padding-bottom:21px;
     }
     .admission_button {
         border: 2px solid #fff;
@@ -675,7 +681,7 @@ main {
         color: #fff;
         text-align: center;
         padding: 10px 30px;
-        margin-left: 151px;
+        margin-left: 273px;
     }
     .admission_button:hover {
         color:gray;
@@ -683,9 +689,9 @@ main {
 
     /* courses in pc*/
     .courses {
-        background-color: #fffde8;
+        background-color: #fff;
         text-align: center;
-        padding: 100px 0px 15px 0px;
+        padding: 100px 0px 25px 0px;
         display: flex;
         position: relative;
     }
@@ -718,26 +724,22 @@ main {
         display:none;
     }
     .course_pc .course_heading1 {
-        text-align: left;
         color: #5e0a0a;
         margin: 33px 0px 10px 0px;
         font-family: 'Lato', sans-serif;
         font-size: 23px;
     }
     .courses .course_pc .para1 {
-        text-align: left;
         font-size: 16px;
         font-family: 'Lato', sans-serif;
         line-height: 21px;
     }
     .courses .course_pc .para2 {
-        text-align: left;
         font-size: 16px;
         font-family: 'Lato', sans-serif;
         padding: 18px 0px 18px 0px;
     }
     .courses .course_pc .para3 {
-        text-align: left;
         font-size: 14px;
         padding: 4px 0px 19px 0px;
         font-family: 'Lato', sans-serif;
@@ -795,7 +797,7 @@ main {
 
     .research_pc {
         display: block;
-        padding: 100px 0px 10px 0px;
+        padding: 80px 0px 10px 0px;
     }
     .research_mobile {
         display: none;
