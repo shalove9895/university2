@@ -549,9 +549,6 @@ main {
 /* end of footer */
 
 @media only screen and (min-width:992px) {
-    body {
-        background: #fffde8;
-    }
     .smart {
         display: none;
     }
@@ -570,7 +567,7 @@ main {
     .nav ul {
         display: block;
         border-bottom: 2px solid #00d1cd;
-        width: 600px;
+        width: 612px;
         height: 24px;
     }
     .nav ul li a:hover {
@@ -581,7 +578,7 @@ main {
     .nav ul li {
         font-size: 15px;
         float: left;
-        margin-right: 43px;
+        margin-right: 45px;
         padding: 0;
         font-family: 'PT Serif', sans-serif;
         display: block;
@@ -681,7 +678,7 @@ main {
         color: #fff;
         text-align: center;
         padding: 10px 30px;
-        margin-left: 273px;
+        margin-left: 300px;
     }
     .admission_button:hover {
         color:gray;
@@ -820,13 +817,13 @@ main {
         position: relative;
         padding-bottom: 100px;
     }
-    .research:after {
+    .research::before {
         content: '';
         width: 100%;
-        height: 360px;
-        background: white;
+        height: 594px;
+        background: #fffde8;
         position: absolute;
-        bottom: 0;
+        bottom: 359px;
         z-index: -1;
     }
     .research_pc .main_heading {
