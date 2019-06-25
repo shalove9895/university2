@@ -21,11 +21,12 @@ li {
     display: flex;
     flex-direction: column;
     padding-bottom: 100px;
-    background-image: url("../image/main.jpg");
+    background-image: url("../image/main pic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     padding-bottom: 374px;
+    background-position: center bottom;
 }
 header .container {
     display: flex;
@@ -106,10 +107,12 @@ main {
     margin: -80px auto 0px;
     width: 80%;
 }
+.admission_box .container {
+    text-align: center;
+}
 .admission_box img {
     display:none;
 }
-
 .admission {
     color: #fff;
     text-align: center;
@@ -128,7 +131,7 @@ main {
     text-align: center;
     padding: 5px 8px;
     text-align: center;
-	margin-left: 63px;
+	
 }
 
 .admission_button a:hover {
@@ -496,7 +499,7 @@ main {
     margin-bottom: 10px;
     color: #fff;
     font-size: 13px;
-    margin-left: 40px;
+    margin-left: 52px;
     margin-bottom: 14px;
 }
 .footer li a {
@@ -508,7 +511,7 @@ main {
 .contact_text {
     color: #fff;
     font-size: 12px;
-    margin-left: 50px;
+    margin-left: 34px;
     font-family: 'PT Serif', sans-serif;
     margin: 10px 0px 10px 53px;
     line-height: 18px;
@@ -578,7 +581,7 @@ main {
     .nav ul li {
         font-size: 15px;
         float: left;
-        margin-right: 45px;
+        margin-right: 40px;
         padding: 0;
         font-family: 'PT Serif', sans-serif;
         display: block;
@@ -590,7 +593,6 @@ main {
     }
     .nav ul li a {
         color: black;
-		boder-bottom:8px solid #00d1cd;
     }
     header .logo img {
         width: 180px;
@@ -651,9 +653,17 @@ main {
     /* header in pc*/
     
     .admission_box {
+        background-image: url("../images/admission.jpg");
+        background-repeat: no-repeat;
         background-color: #00d1cd;
-        padding: 0px 0px 48px 0px;
-        width: 90%;
+        text-align: center;
+        padding: 10px 0px 19px 0px;
+        margin: -80px auto 0px;
+        width: 90%;   
+    }
+    .admission_box .container {
+        text-align: right;
+        
     }
     .admission_box img {
         display: block;
@@ -665,9 +675,10 @@ main {
         text-align: right;
         font-family: 'PT Serif', sans-serif;
         padding-top: 46px;
-        text-align: center;
+        text-align: right;
         font-size: 43px;
-		padding-bottom:21px;
+        padding-bottom:6px;
+        margin-right: 154px;
     }
     .admission_button {
         border: 2px solid #fff;
@@ -676,9 +687,12 @@ main {
         font-size: 14px;
         font-weight: 600;
         color: #fff;
-        text-align: center;
+        text-align: right;
         padding: 10px 30px;
-        margin-left: 300px;
+        display: inline-block;
+        margin-right: 293px;
+        margin-bottom: 11px;
+        
     }
     .admission_button:hover {
         color:gray;
