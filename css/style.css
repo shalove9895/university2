@@ -547,6 +547,19 @@ main {
 .footer_pc {
     display:none;
 }
+#goToTopBtn {
+    padding: 20px;
+    background-color:#e91e63;
+    color:#fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+    border-radius: 5px;
+}
+#goToTopBtn.active {
+    display: block;
+}
 /* end of footer */
 
 @media only screen and (min-width:992px) {

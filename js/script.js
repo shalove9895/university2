@@ -16,3 +16,11 @@ $(function() {
     }
   });
 });
+
+document.addEventListener('scroll', function() {
+  if(scrollY > 200) {
+      document.getElementById('goToTopBtn').classList.add('active');
+  } else {
+      document.getElementById('goToTopBtn').classList.remove('active');
+  }
+});
