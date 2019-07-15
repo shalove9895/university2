@@ -176,7 +176,7 @@ header .logo-mob img {
     color: #fff;
     text-align: center;
     padding: 5px 8px;
-    text-align: center;	
+    text-align: center;
 }
 .admission_button a:hover {
     color: grey;
@@ -309,7 +309,8 @@ header .logo-mob img {
 .research_boxes {
     background-color: #ff3e6d;
     width: 100%;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
+    margin-top: -6px;
 }
 .research_sub_heading {
     color: #fff;
@@ -368,6 +369,64 @@ header .logo-mob img {
 .research_mobile {
     display:block;
 }
+
+.slider {
+    position: relative;
+  }
+  .slider ul {
+    margin: 0;
+    padding: 0;
+  }
+  .slider .images {
+    width: 100%;
+    display: block;
+  }
+  .slider .images li {
+    display: none;
+  }
+  .slider .images li.active {
+    display: block;
+  }
+  .slider .indicators {
+    position: absolute;
+    bottom: -39px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .slider .indicators li {
+    width: 13px;
+    height: 13px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .slider .indicators li.active {
+    background: #00d1cd;
+  }
+  .slider button {
+    position: absolute;
+    top: 32%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all .3s ease-in;
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: black;
+  }
+  .slider:hover button {
+    opacity: 1;
+    border: none;
+    background: none;
+  }
+  .slider .prev {
+    left: 10px;
+  }
+  .slider .next {
+    right: 10px;
+  }
+
+
 /* news*/
 .news {
     display: flex;
@@ -712,7 +771,7 @@ header .logo-mob img {
     }
 
     /* header in pc*/
-    
+
     .admission_box {
         background-image: url("../images/admission.jpg");
         background-repeat: no-repeat;
@@ -720,11 +779,11 @@ header .logo-mob img {
         text-align: center;
         padding: 10px 0px 19px 0px;
         margin: -80px auto 0px;
-        width: 90%;   
+        width: 90%;
     }
     .admission_box .container {
         text-align: right;
-        
+
     }
     .admission_box img {
         display: block;
@@ -753,7 +812,7 @@ header .logo-mob img {
         display: inline-block;
         margin-right: 293px;
         margin-bottom: 11px;
-        
+
     }
     .admission_button:hover {
         color:gray;
@@ -1110,7 +1169,7 @@ header .logo-mob img {
     }
 
     /* footer in pc*/
- 
+
     .footer_smart {
         display:none;
     }

@@ -1,6 +1,6 @@
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+// $(function () {
+//   $('[data-toggle="tooltip"]').tooltip()
+// })
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -35,3 +35,66 @@ function closeSlideMenu(){
   document.getElementById('menu').style.width ='0';
   document.getElementById('contant').style.marginLeft ='0';
 }
+
+
+var updateSliderInterval;
+var startInterval = false;
+
+function updateSlider(id) {
+  startInterval = false;
+  if(id == 'nextBtn') {
+    // logic for next button
+    if($('.slider .images li:last-child').hasClass('active')) {
+      $('.slider .images li.active').removeClass('active');
+      $('.slider .images li:first-child').addClass('active');
+    } else {
+      $('.slider .images li.active + li').addClass('temp-active');
+      $('.slider .images li.active').removeClass('active');
+
+      $('.slider .images li.temp-active').addClass('active');
+      $('.slider .images li.temp-active').removeClass('temp-active');
+    }
+  } else {
+    // logic for prev button
+    if($('.slider .images li:first-child').hasClass('active')) {
+      $('.slider .images li.active').removeClass('active');
+      $('.slider .images li:last-child').addClass('active');
+    } else {
+      $('.slider .images li.active').prev().addClass('temp-active');
+      $('.slider .images li.active').removeClass('active');
+
+      $('.slider .images li.temp-active').addClass('active');
+      $('.slider .images li.temp-active').removeClass('temp-active');
+    }
+  }
+}
+
+$('#prevBtn, #nextBtn').click(function() {
+  updateSlider(this.id)
+})
+
+function interval() {
+  updateSliderInterval = setInterval(function() {
+    updateSlider('nextBtn');
+  }, 10000);
+}
+interval();
+
+$('.slider').mouseenter(function() {
+  console.log('stop');
+  clearInterval(updateSliderInterval);
+})
+$('.slider').mouseout(function(e) {
+  console.log('start');
+  if(startInterval) {
+    interval();
+  }
+  startInterval = true;
+})
+
+$('.slider').mousemove(function(e) {
+  console.log();
+  if(e.target.classList.contains('btn')) {
+    startInterval = false;
+  }
+})
