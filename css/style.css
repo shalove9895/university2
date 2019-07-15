@@ -99,7 +99,10 @@ main {
     color: gray;
 }
 
-
+.slide i.fa.fa-bars {
+    color: black;
+    font-size: 18px;
+}
 .nav1 {
     height: 100%;
     width: 0;
@@ -117,7 +120,8 @@ main {
     display: block;
     padding: 15px 30px;
     font-size: 15px;
-    color:black;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
 }
 .nav1 a:hover {
     color:#fff;
@@ -125,7 +129,7 @@ main {
 }
 a.close {
     position: absolute;
-    top:0;
+    top:15px;
     right:9px;
     margin-left: 50px;
 }
@@ -138,7 +142,7 @@ a.close {
 }
 header .logo-mob img {
     width:140px;
-    padding-right: 129px;
+    padding-right: 150px;
 }
 
 /* header*/
