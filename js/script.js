@@ -24,3 +24,14 @@ document.addEventListener('scroll', function() {
       document.getElementById('goToTopBtn').classList.remove('active');
   }
 });
+
+
+function openSlideMenu(){
+  document.getElementById('menu').style.width ='200px';
+  document.getElementById('contant').style.marginLeft ='200px';
+}
+
+function closeSlideMenu(){
+  document.getElementById('menu').style.width ='0';
+  document.getElementById('contant').style.marginLeft ='0';
+}
