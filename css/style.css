@@ -399,6 +399,7 @@ header .logo-mob img {
     background-color: gray;
     border-radius: 50%;
     display: inline-block;
+    margin: 3px;
   }
   .slider .indicators li.active {
     background: #00d1cd;
@@ -412,7 +413,7 @@ header .logo-mob img {
     background: none;
     border: none;
     font-size: 25px;
-    color: black;
+    color: #fff;
   }
   .slider:hover button {
     opacity: 1;
