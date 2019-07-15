@@ -16,6 +16,7 @@ li {
     margin: 0 auto;
 }
 
+
 /* header*/
 .header_main {
     display: flex;
@@ -111,7 +112,6 @@ main {
     top:0;
     left:0;
     background-color: #00d1cd;
-    opacity: 0.9;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.7s;
@@ -413,7 +413,7 @@ header .logo-mob img {
     background: none;
     border: none;
     font-size: 25px;
-    color: #fff;
+    color: black;
   }
   .slider:hover button {
     opacity: 1;
