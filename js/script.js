@@ -69,13 +69,44 @@ function updateSlider(id) {
   }
 }
 
+function updateIndicators(id) {
+  startInterval = false;
+  if(id == 'nextBtn') {
+    // logic for next button
+    if($('.indicators li:last-child').hasClass('active')) {
+      $('.indicators li.active').removeClass('active');
+      $('.indicators li:first-child').addClass('active');
+    } else {
+      $('.indicators li.active + li').addClass('temp-active');
+      $('.indicators li.active').removeClass('active');
+
+      $('.indicators li.temp-active').addClass('active');
+      $('.indicators li.temp-active').removeClass('temp-active');
+    }
+  } else {
+    // logic for prev button
+    if($('.indicators li:first-child').hasClass('active')) {
+      $('.indicators li.active').removeClass('active');
+      $('.indicators li:last-child').addClass('active');
+    } else {
+      $('.indicators li.active').prev().addClass('temp-active');
+      $('.indicators li.active').removeClass('active');
+
+      $('.indicators li.temp-active').addClass('active');
+      $('.indicators li.temp-active').removeClass('temp-active');
+    }
+  }
+}
+
 $('#prevBtn, #nextBtn').click(function() {
   updateSlider(this.id)
+  updateIndicators(this.id)
 })
 
 function interval() {
   updateSliderInterval = setInterval(function() {
     updateSlider('nextBtn');
+    updateIndicators('nextBtn');
   }, 10000);
 }
 interval();
