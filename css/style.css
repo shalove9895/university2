@@ -35,9 +35,6 @@ header .container {
     height: 100px;
     align-items: center;
 }
-header .logo img {
-    display: none;
-}
 .nav ul {
     display:none;
 }
@@ -51,6 +48,9 @@ main {
     border-style: none;
     font-size: 18px;
     background-color: inherit;
+}
+.header_main .logo img {
+    width: 150px;
 }
 
 /* main */
@@ -98,51 +98,6 @@ main {
 }
 .main_button:hover {
     color: gray;
-}
-
-.slide i.fa.fa-bars {
-    color: black;
-    font-size: 18px;
-}
-.nav1 {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index:1;
-    top:0;
-    left:0;
-    background-color: #00d1cd;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.7s;
-}
-.nav1 a {
-    display: block;
-    padding: 15px 30px;
-    font-size: 15px;
-    color:#fff;
-    font-family: 'Lato', sans-serif;
-}
-.nav1 a:hover {
-    color:#fff;
-    transition: 0.4s;
-}
-a.close {
-    position: absolute;
-    top:15px;
-    right:9px;
-    margin-left: 50px;
-}
-#contant {
-    transition: margin-left 0.7s;
-    display: contents;
-    overflow: hidden;
-    width: 100%;
-
-}
-header .logo-mob img {
-    width:140px;
-    padding-right: 150px;
 }
 
 /* header*/
@@ -501,7 +456,6 @@ header .logo-mob img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 23px;
 }
 .event-info h3 {
     font-size: 20px;
@@ -654,7 +608,7 @@ header .logo-mob img {
     display:none;
 }
 #goToTopBtn {
-    padding: 20px;
+    padding: 16px;
     background-color:#e91e63;
     color:#fff;
     position: fixed;
