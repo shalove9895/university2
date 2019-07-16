@@ -26,16 +26,9 @@ document.addEventListener('scroll', function() {
 });
 
 
-function openSlideMenu(){
-  document.getElementById('menu').style.width ='200px';
-  document.getElementById('contant').style.marginLeft ='200px';
-}
 
-function closeSlideMenu(){
-  document.getElementById('menu').style.width ='0';
-  document.getElementById('contant').style.marginLeft ='0';
-}
 
+// slider
 
 var updateSliderInterval;
 var startInterval = false;
@@ -111,21 +104,26 @@ function interval() {
 }
 interval();
 
-$('.slider').mouseenter(function() {
-  console.log('stop');
-  clearInterval(updateSliderInterval);
-})
-$('.slider').mouseout(function(e) {
-  console.log('start');
-  if(startInterval) {
-    interval();
-  }
-  startInterval = true;
-})
+// $('.slider').mouseenter(function() {
+//   console.log('stop');
+//   clearInterval(updateSliderInterval);
+// })
+// $('.slider').mouseout(function(e) {
+//   console.log('start');
+//   if(startInterval) {
+//     interval();
+//   }
+//   startInterval = true;
+// })
 
-$('.slider').mousemove(function(e) {
-  console.log();
-  if(e.target.classList.contains('btn')) {
-    startInterval = false;
-  }
-})
+// $('.slider').mousemove(function(e) {
+//   console.log();
+//   if(e.target.classList.contains('btn')) {
+//     startInterval = false;
+//   }
+// });
+
+// Drop Down
+$('#menuBtn').click(function() {
+  $('#mainNav').toggleClass('active');
+});
