@@ -646,6 +646,11 @@ header {
 #goToTopBtn.active {
     display: block;
 }
+a#goToTopBtn:hover {
+    background: yellowgreen;
+    /* transition: .5s all ease; */
+    transition: .5s all;
+}
 /* end of footer */
 
 @media only screen and (min-width:992px) {
@@ -681,7 +686,7 @@ header {
     .nav-pc ul li {
         font-size: 15px;
         float: left;
-        margin-right: 45px;
+        margin-right: 40px;
         padding: 0;
         font-family: 'PT Serif', sans-serif;
         display: block;
@@ -753,10 +758,28 @@ header {
         font-weight: 600;
         display: inline-block;
         margin: 20px 0px 0px 168px;
+        transition: .8s all ease;
     }
     .main_button:hover {
-        color:gray;
+        color: white;
+        background: #5e0a0a;
     }
+    .fade-in {
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+      }
+      
+      @keyframes fadeInOpacity {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
 
     /* header in pc*/
 
@@ -1243,5 +1266,6 @@ header {
         padding: 14px;
         letter-spacing: 1px;
     }
+
 
     }
